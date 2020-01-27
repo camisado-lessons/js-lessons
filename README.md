@@ -1,4 +1,4 @@
-# pure-js-lessons
+# js-lessons
 
 just a simple tasks for understading js
 
