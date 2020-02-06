@@ -24,10 +24,15 @@ function calculate(obj) {
     return {string, number, boolean , other};
 };
 
-let numb = {
-    a: 4,
-    operation: '+',
-    b: 2,
+let obj = {
+
+    a: true,
+    b: false,
+    c: 123,
+    d: 'asdasd',
+    e: 'asdasd',
+    f: {},
+
 };
 
-calculate(numb);
+calculate(obj);
