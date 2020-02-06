@@ -10,17 +10,17 @@ function calculate(numb) {
     
     switch (numb.operation) {
         case '+':
-        count = numb.a + numb.b;
-        break;
+            count = numb.a + numb.b;
+            break;
         case '-':
-        count = numb.a - numb.b;
-        break;
+            count = numb.a - numb.b;
+            break;
         case '*':
-        count = numb.a * numb.b;
-        break;
+            count = numb.a * numb.b;
+            break;
         case '/':
-        count = numb.a / numb.b;
-        break;
+            count = numb.a / numb.b;
+            break;
     };
     return '' + numb.a + numb.operation + numb.b + '=' + count;    
 };
